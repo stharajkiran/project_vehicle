@@ -1,6 +1,6 @@
 import sys
 
-from src.cloud_storage.aws_storage import SimpleStorageService
+from src.aws_storage.aws_storage import SimpleStorageService
 from src.exception import MyException
 from src.logger import logging
 from src.entity.artifact_entity import ModelPusherArtifact, ModelEvaluationArtifact
